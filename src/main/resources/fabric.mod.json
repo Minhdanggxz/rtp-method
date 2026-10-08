@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "multicmd",
+  "version": "${version}",
+  "name": "MultiCmd",
+  "description": "Bấm một phím để tự chạy lần lượt: /delhome 2, /sethome 2, /rtp, /home 2.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.multicmd.MultiCmdClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
